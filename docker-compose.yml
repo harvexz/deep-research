@@ -1,6 +1,8 @@
 services:
   deep-research:
     build: .
+    volumes:
+      - ./logs:/app/logs
     env_file:
       - .env.local
     tty: true

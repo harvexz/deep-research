@@ -1,0 +1,105 @@
+Prompt for AI Research Assistant
+
+Assignment Title: Critical Analysis of Protection Mechanisms: PIE and ASLR
+
+Task Overview:Produce an academically rigorous report focused solely on Part One: the Research Element of the assignment. The report should critically analyse two methods used to mitigate the impact of an exploit:
+
+Position Independent Executables (PIE)
+
+Address Space Layout Randomization (ASLR)
+
+The report should meet the following criteria:
+
+1. Academic Standard:
+
+Written at a third-year undergraduate level for a cybersecurity course.
+
+Maintain a professional, formal tone throughout.
+
+Use UK British English consistently.
+
+Word Count: 1,000 to 1,500 words.
+
+2. Research Expectations:
+
+Conduct thorough research from reliable, accurate, and trusted academic or industry sources (e.g., scholarly articles, technical white papers, cybersecurity standards, books, and reputable security blogs).
+
+Include in-text citations and provide a complete reference list in Harvard referencing style (unless otherwise specified).
+
+3. Structure and Content Requirements:
+
+Introduction (Approx. 150-200 words):
+
+Briefly introduce the importance of protection mechanisms in cybersecurity.
+
+Outline the focus on PIE and ASLR as two critical exploit mitigation techniques.
+
+Section 1: Position Independent Executables (PIE) (Approx. 400-600 words):
+
+Overview: Describe what PIE is and the types of attacks it aims to prevent (e.g., buffer overflows, code injection attacks).
+
+Technical Implementation: Explain how PIE works technically, including how it enables code to be executed at random memory addresses, enhancing security.
+
+Critical Analysis: Discuss the strengths and weaknesses of PIE:
+
+Strengths (e.g., increases unpredictability, works well with ASLR).
+
+Weaknesses (e.g., performance overhead, limited effectiveness without ASLR).
+
+Bypass Strategies: Briefly overview known techniques that attackers use to bypass PIE.
+
+Section 2: Address Space Layout Randomization (ASLR) (Approx. 400-600 words):
+
+Overview: Explain ASLR, its purpose, and the types of attacks it mitigates (e.g., Return-Oriented Programming (ROP), stack smashing).
+
+Technical Implementation: Describe how ASLR randomizes memory address locations for system and application components (stack, heap, libraries).
+
+Critical Analysis: Analyse the strengths and weaknesses of ASLR:
+
+Strengths (e.g., increases attack complexity, effective against certain memory corruption vulnerabilities).
+
+Weaknesses (e.g., can be bypassed with information leaks, predictable patterns on some systems).
+
+Bypass Strategies: Discuss real-world examples of ASLR bypass techniques (e.g., memory disclosure vulnerabilities).
+
+Conclusion (Approx. 150-200 words):
+
+Summarise key findings on PIE and ASLR.
+
+Reflect on their effectiveness individually and when combined.
+
+Provide a brief commentary on the evolving landscape of exploit mitigation.
+
+4. Referencing:
+
+All claims and technical explanations must be supported with in-text citations.
+
+Include a reference list at the end with properly formatted citations from trusted, peer-reviewed sources (preferably recent publications within the last 5-7 years).
+
+5. Focus Areas:
+
+Prioritise technical accuracy and clarity.
+
+Avoid overly simplistic explanations; aim for depth suitable for a cybersecurity graduate.
+
+Use diagrams or code snippets only if they significantly enhance understanding (and ensure proper attribution if used).
+
+
+
+The assignment brief is attached below for additional clarity:
+There are several protection mechanisms that try to prevent attackers successfully exploiting a computer system. Understanding how these methods work, and techniques that can be used to bypass them, is an important part of developing a successful exploit.
+For this coursework, you are expected to research common protection mechanisms and the demonstrate impact they can have on exploit code.
+The report is made up of two sections:
+Part One: Research Element (50% Overall)
+For the first element you are expected to research and discuss TWO methods used to mitigate the impact of an exploit.
+You should discuss:
+• An Overview of the mitigation method, and the types of attack it aims to prevent.
+• Discussion around technical implementation of the method.
+• Critical Analysis of the Strengths, Weaknesses of the method, and an overview of
+possible strategies to defeat it.
+You are expected to make use of the literature to support your discussion, using references to support and strengthen the arguments you make.
+
+
+
+When completing this, ensure that both PIE and ASLR are explained in a technical way, and each stage of how they work is broken down in detail. Alongside this, any other explanations should go deep into the inner workings of how functions work, how the bypass works in detail etc. Use professional language however be direct, accurate and not overly wordy. You must be highly detailed.
+

@@ -4,7 +4,6 @@ import * as readline from 'readline';
 import { deepResearch, writeFinalReport } from './deep-research';
 import { generateFeedback } from './feedback';
 import { OutputManager } from './output-manager';
-import { appendToTotal } from './handleCost';
 
 const output = new OutputManager();
 
@@ -120,8 +119,5 @@ ${followUpQuestions.map((q: string, i: number) => `Q: ${q}\nA: ${answers[i]}`).j
 
   console.log(`\n\nFinal Report:\n\n${report}`);
   console.log('\nReport has been saved to output.md');
-  await appendToTotal();
-  rl.close();
-}
 
 run().catch(console.error);
