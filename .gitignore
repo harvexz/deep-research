@@ -2,6 +2,8 @@
 
 # Output files
 output.md
+tokens.csv
+total.csv
 
 # Dependencies
 node_modules
